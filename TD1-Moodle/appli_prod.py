@@ -22,9 +22,9 @@ class AppliProd:
             self.connexion_bd_commune = mysql.connect(
                 host='fimi-bd-srv1.insa-lyon.fr',
                 port=3306,
-                user=' ', # a completer
-                password=' ', # a completer
-                database=' ' # a completer
+                user='G223_B', # a completer
+                password='G223_B', # a completer
+                database='G223_B_BD3' # a completer
             )
             print("=> Connexion a ... établie...")
         except Exception as e:
